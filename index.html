@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gizlilik Politikası — ÖABT Edebiyat Soru Bankası</title>
+<style>
+  body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; max-width: 760px; margin: 0 auto; padding: 24px 16px 48px; line-height: 1.6; color: #1d2733; background: #fff; }
+  h1 { font-size: 1.6rem; margin-bottom: 4px; } h2 { font-size: 1.15rem; margin-top: 28px; }
+  .meta { color: #5b6878; font-size: .95rem; } li { margin: 4px 0; } a { color: #1f4f7a; }
+</style>
+</head>
+<body>
+<h1>Gizlilik Politikası</h1>
+<p class="meta">ÖABT Edebiyat Soru Bankası (Android) · Geliştirici: Makaya Apps · İletişim: <a href="mailto:kayaeyup47@gmail.com">kayaeyup47@gmail.com</a><br>Yürürlük tarihi: 10 Ekim 2026</p>
+
+<p>Bu politika, ÖABT Edebiyat Soru Bankası uygulamasının hangi verileri neden işlediğini açıklar.</p>
+
+<h2>1. Toplanan veriler</h2>
+<ul>
+  <li><strong>Hesap bilgileri:</strong> Kayıt olurken girdiğiniz e-posta adresi ve görünen ad ile Firebase'in hesabınıza verdiği kullanıcı kimliği (UID). Giriş Google Firebase Authentication ile yapılır; şifreniz geliştirici tarafından görülmez ve saklanmaz.</li>
+  <li><strong>Soru bildirimleri:</strong> Bir soruyu "Bildir" ile bildirdiğinizde soru kimliği, banka ve test bilgisi, seçtiğiniz neden (hatalı soru, cevap hatalı, yazım hatası, talep), uygulama sürümü, tarih-saat ve kullanıcı kimliğiniz (UID) Google Cloud Firestore'a kaydedilir. Serbest metin alınmaz. Kötüye kullanımı önlemek için günlük bildirim sayınız da tutulur.</li>
+  <li><strong>Güvenlik amaçlı teknik veriler:</strong> Firebase Authentication, giriş ve kayıt sırasında kötüye kullanımı önlemek için IP adresini ve cihaz/işletim sistemi sürümü gibi teknik bilgileri işler.</li>
+</ul>
+<p>Konum, rehber, fotoğraf, mikrofon, ödeme veya sağlık verisi toplanmaz. Uygulamada reklam, reklam kimliği, analitik veya çökme raporlama aracı yoktur.</p>
+
+<h2>2. Yalnız cihazınızda kalan veriler</h2>
+<p>Test sonuçlarınız, istatistikleriniz, favorileriniz, "daha sonra bak" işaretleriniz, yanlış havuzunuz ve Günün Testi kayıtlarınız yalnız cihazınızdaki uygulama veritabanında tutulur; sunuculara gönderilmez. 17.000 soru da uygulamanın içindedir.</p>
+
+<h2>3. Verilerin kullanım amacı</h2>
+<ul>
+  <li>Hesabınızı oluşturmak, oturumunuzu sürdürmek ve hesabınızı korumak.</li>
+  <li>Bildirilen soruları incelemek ve içerik hatalarını düzeltmek. Her bildirim geliştiriciye e-postayla iletilir; e-postada adınız veya e-posta adresiniz bulunmaz, yalnız kısa bir hesap referansı yer alır.</li>
+  <li>Kötüye kullanımı önlemek (aynı soru için tek bildirim, günde en fazla 5 bildirim).</li>
+</ul>
+
+<h2>4. Paylaşım</h2>
+<p>Verileriniz satılmaz ve reklam amacıyla paylaşılmaz. Altyapı hizmeti olarak Google Firebase (Authentication, Cloud Firestore) ve bildirim e-postaları için Google Apps Script/Gmail kullanılır; bu hizmetler verileri geliştirici adına işler. Veriler aktarım sırasında şifrelenir (HTTPS).</p>
+
+<h2>5. Saklama ve silme</h2>
+<ul>
+  <li>Hesabınızı uygulama içinden silebilirsiniz: <em>Profil → Hesabı sil</em>. Bu işlem giriş hesabınızı (e-posta, ad, UID) ve cihazınızdaki ilerleme kayıtlarınızı kalıcı olarak siler. Ayrıntılar: <a href="hesap-silme.html">Hesap silme</a>.</li>
+  <li>Soru bildirimleri, soru kalitesinin izlenmesi için hesap silindikten sonra da saklanır; bu kayıtlarda e-posta veya ad bulunmaz ve silinmiş hesapla eşleştirilemez. Bu kayıtların da silinmesini isterseniz <a href="mailto:kayaeyup47@gmail.com">kayaeyup47@gmail.com</a> adresine yazabilirsiniz.</li>
+  <li>Cihazdaki veriler uygulamayı kaldırdığınızda da silinir.</li>
+</ul>
+
+<h2>6. Çocuklar</h2>
+<p>Uygulama, ÖABT'ye hazırlanan yetişkin öğretmen adaylarına yöneliktir. Bilerek 13 yaşından küçük çocuklardan veri toplanmaz.</p>
+
+<h2>7. Değişiklikler</h2>
+<p>Bu politika değişirse güncel sürüm bu sayfada yayımlanır ve yürürlük tarihi güncellenir.</p>
+</body>
+</html>
