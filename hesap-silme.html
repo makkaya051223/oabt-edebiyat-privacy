@@ -32,7 +32,9 @@
 
 <h2>Saklanan veriler</h2>
 <ul>
-  <li>Gönderdiğiniz soru bildirimleri (soru kimliği, neden, tarih, kullanıcı kimliği) soru kalitesinin izlenmesi için saklanır; e-posta veya ad içermez. E-postayla talep ederseniz bunlar da silinir.</li>
+  <li>Uygulama içinden silme, sunucudaki şu kayıtları <strong>silmez</strong>: gönderdiğiniz soru bildirimleri (soru kimliği, banka/test, neden, uygulama sürümü, tarih, kullanıcı kimliğiniz — UID) ve günlük bildirim sayacınız (UID, gün, sayı, son bildirilen soru kimliği, zaman). Bu kayıtlar e-posta adresinizi veya adınızı içermez, ancak UID içerir. Soru kalitesinin izlenmesi ve kötüye kullanımın önlenmesi için saklanır; belirli bir saklama süresi tanımlanmamıştır.</li>
+  <li>Geliştiriciye gönderilmiş bildirim e-postaları (UID'nin ilk 6 karakteri, soru kimliği, neden, tarih) geliştiricinin e-posta kutusunda kalır.</li>
+  <li>Bu kayıtların da silinmesini isterseniz yukarıdaki adrese e-posta gönderin; geliştirici tarafından elle silinir.</li>
 </ul>
 
 <p><a href="index.html">Gizlilik Politikası</a></p>

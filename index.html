@@ -12,7 +12,7 @@
 </head>
 <body>
 <h1>Gizlilik Politikası</h1>
-<p class="meta">ÖABT Edebiyat Soru Bankası (Android) · Geliştirici: Makaya Apps · İletişim: <a href="mailto:kayaeyup47@gmail.com">kayaeyup47@gmail.com</a><br>Yürürlük tarihi: 10 Ekim 2026</p>
+<p class="meta">ÖABT Edebiyat Soru Bankası (Android) · Geliştirici: Makaya Apps · İletişim: <a href="mailto:kayaeyup47@gmail.com">kayaeyup47@gmail.com</a><br>Yürürlük tarihi: 12 Ekim 2026</p>
 
 <p>Bu politika, ÖABT Edebiyat Soru Bankası uygulamasının hangi verileri neden işlediğini açıklar.</p>
 
@@ -40,7 +40,9 @@
 <h2>5. Saklama ve silme</h2>
 <ul>
   <li>Hesabınızı uygulama içinden silebilirsiniz: <em>Profil → Hesabı sil</em>. Bu işlem giriş hesabınızı (e-posta, ad, UID) ve cihazınızdaki ilerleme kayıtlarınızı kalıcı olarak siler. Ayrıntılar: <a href="hesap-silme.html">Hesap silme</a>.</li>
-  <li>Soru bildirimleri, soru kalitesinin izlenmesi için hesap silindikten sonra da saklanır; bu kayıtlarda e-posta veya ad bulunmaz ve silinmiş hesapla eşleştirilemez. Bu kayıtların da silinmesini isterseniz <a href="mailto:kayaeyup47@gmail.com">kayaeyup47@gmail.com</a> adresine yazabilirsiniz.</li>
+  <li>Uygulama içinden hesap silme, sunucudaki soru bildirimlerini <strong>silmez</strong>. Soru bildirimleriniz ve günlük bildirim sayacınız (gün, sayı, son bildirilen soru kimliği, zaman) soru kalitesinin izlenmesi ve kötüye kullanımın önlenmesi için Cloud Firestore'da saklanmaya devam eder. Bu kayıtlarda e-posta adresiniz veya adınız yoktur, ancak kullanıcı kimliğiniz (UID) bulunur. Geliştiriciye gönderilmiş bildirim e-postalarında da UID'nin ilk 6 karakteri yer alır. Bu kayıtlar için belirli bir saklama süresi tanımlanmamıştır.</li>
+  <li>Soru bildirimlerinizin ve bildirim sayacınızın da silinmesini isterseniz, hesabınızı silmeden önce veya sonra <a href="mailto:kayaeyup47@gmail.com">kayaeyup47@gmail.com</a> adresine yazabilirsiniz; bu kayıtlar geliştirici tarafından elle silinir.</li>
+  <li>Firebase Authentication'ın güvenlik amacıyla işlediği teknik veriler (IP adresi gibi) Google'ın kendi saklama kurallarına tabidir.</li>
   <li>Cihazdaki veriler uygulamayı kaldırdığınızda da silinir.</li>
 </ul>
 
